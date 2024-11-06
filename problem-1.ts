@@ -1,7 +1,8 @@
+{
+
+    const sumArray = (numbers: number[]): number => {
+        return numbers.reduce((acc, number) => acc + number, 0);
+    }
 
 
-const sumArray =(numbers:number[]):number=>{
-    return numbers.reduce((acc,number)=>acc+number,0);
 }
-
-
