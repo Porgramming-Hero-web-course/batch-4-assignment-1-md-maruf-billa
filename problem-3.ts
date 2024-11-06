@@ -9,7 +9,7 @@
                 wordCount++;
             }
         }
-
         return wordCount;
     }
+
 }
