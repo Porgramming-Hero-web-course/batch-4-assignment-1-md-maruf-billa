@@ -5,11 +5,12 @@
         const searchWord = search.toLowerCase();
 
         for (let i = 0; i < spitedSentence.length; i++) {
-            if (spitedSentence[i] === searchWord) {
+            if (spitedSentence[i].includes(searchWord)) {
                 wordCount++;
             }
         }
         return wordCount;
     }
+
 
 }

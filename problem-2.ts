@@ -12,6 +12,7 @@
     };
 
 
+
     // alternative with array method 
 
     // const removeDuplicatesAlterNative = (numbers: number[]): number[] => {
