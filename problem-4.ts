@@ -12,7 +12,7 @@
         height: number;
     }
 
-    const calculateShapeArea = (userInput: Circle | Rectangle): number => {
+    const calculateShapeArea = (userInput: Circle | Rectangle): number | string => {
         if (userInput.shape === "circle") {
             return Math.PI * userInput.radius ** 2
         }
@@ -20,7 +20,7 @@
             return userInput.height * userInput.width
         }
         else {
-            throw new Error("Shape type not match!!!!")
+            return ("Shape type not match!!!!")
         }
     }
 
